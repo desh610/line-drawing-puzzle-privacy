@@ -33,6 +33,12 @@ Used to provide haptic feedback when you connect nodes in a puzzle. No data is c
 **POST_NOTIFICATIONS**
 Used only to send you a daily reminder notification to play the game. Notifications are scheduled locally on your device. No data is sent to any server. You can disable this at any time in Settings → Notifications or inside the app under Settings → Daily Reminder.
 
+**BILLING**
+Required to process in-app purchases securely through Google Play. We never see or store your payment information - all transactions are handled entirely by Google Play.
+
+**ACCESS_NETWORK_STATE**
+Used to check your internet connection before attempting to process in-app purchases, so we can show you a helpful message if you're offline instead of letting the purchase fail silently.
+
 ---
 
 ## Third-Party Services
